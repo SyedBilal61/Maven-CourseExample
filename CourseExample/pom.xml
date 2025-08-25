@@ -8,17 +8,7 @@
   <name>CourseExample</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-	  <dependency>
-		  <groupId></groupId>
-		  <artifactId></artifactId>
-		  <version></version>
-		  <groupId></groupId>
-		  <artifactId></artifactId>
-		  <version></version>
-		  <groupId></groupId>
-		  <artifactId></artifactId>
-		  <version></version>
-	  </dependency>
+	  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
