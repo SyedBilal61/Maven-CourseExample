@@ -81,6 +81,7 @@
           <target>17</target>
         </configuration>
       </plugin>
+      <!--Learn these child modules and build lifecycles etc -->
       <!-- Surefire plugin for running JUnit tests -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
