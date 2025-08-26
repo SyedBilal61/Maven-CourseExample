@@ -6,10 +6,18 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.my.app</groupId>
   <artifactId>CourseExample</artifactId>
-  <packaging>jar</packaging>
+
+  <!-- ❌ was <packaging>jar</packaging> -->
+  **<packaging>pom</packaging>**
+
   <version>1.0-SNAPSHOT</version>
   <name>CourseExample</name>
   <url>http://maven.apache.org</url>
+
+  **<modules>**
+    **<module>module-a</module>**
+    **<module>module-b</module>**
+  **</modules>**
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
@@ -17,6 +25,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <!-- 👇 dependencies and build can stay here OR be moved to children -->
   <dependencies>
     <!-- Servlet API -->
     <dependency>
@@ -82,5 +91,3 @@
   </build>
 
 </project>
-
-<!-- Updated pom.xml with Lombok, JUnit 5, and plugins -->
