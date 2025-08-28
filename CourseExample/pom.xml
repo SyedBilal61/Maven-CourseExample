@@ -61,6 +61,13 @@
       <version>5.11.0</version>
       <scope>test</scope>
     </dependency>
+<!-- ✅ NEW: Google Guava (common utils library) -->
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>33.3.1-jre</version>
+    </dependency>
+  </dependencies>
     <!-- Lombok (to reduce boilerplate code) -->
     <dependency>
       <groupId>org.projectlombok</groupId>
